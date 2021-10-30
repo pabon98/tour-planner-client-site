@@ -17,6 +17,9 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import ServiceDetail from './Components/ServiceDetail/ServiceDetail'
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute'
+import ManageOrders from './Components/ManageOrders/ManageOrders';
+import MyOrders from './Components/MyOrders/MyOrders';
+import NewService from './Components/NewService/NewService';
 
 
 
@@ -51,6 +54,15 @@ function App() {
          </PrivateRoute>
          <PrivateRoute path="/contact">
           <Contact></Contact>
+         </PrivateRoute>
+         <PrivateRoute path="/manageorders">
+           <ManageOrders></ManageOrders>
+         </PrivateRoute>
+         <PrivateRoute path="/myorders">
+           <MyOrders></MyOrders>
+         </PrivateRoute>
+         <PrivateRoute path="/newservice">
+           <NewService></NewService>
          </PrivateRoute>
          <Route path="*">
            <NotFound></NotFound>

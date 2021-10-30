@@ -97,7 +97,7 @@ const Home = () => {
           services.slice(0,6).map(service=>(
             <div className="col-md-4 my-2">
               <div class="card" style={{ width: "18rem" }}>
-            <img src={service.image} class="card-img-top" alt="..." />
+            <img height="200px" src={service.image} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">{service.name}</h5>
               <p class="card-text">

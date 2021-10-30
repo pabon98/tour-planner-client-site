@@ -15,7 +15,7 @@ const Tour = () => {
         {tours.map((tour) => (
           <div className="col-md-4 my-3">
             <div class="card" style={{ width: "18rem" }}>
-              <img src={tour.image} class="card-img-top" alt="..." />
+              <img height="200px" src={tour.image} class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">{tour.name}</h5>
                 <p class="card-text">{tour.description.slice(0,180)}</p>

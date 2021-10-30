@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth/useAuth';
 import './Navbar.css'
 
@@ -87,7 +87,25 @@ const Navbar = () => {
           
         </ul>
       
-        <form className="d-flex flex-fill mx-5">
+        <form className="d-flex flex-fill mx-2">
+          {
+            user.email&&
+            <Link to="/myorders">
+              <button className="btn btn btn-outline-warning me-3">My Orders</button>
+            </Link>
+          }
+          {
+            user.email&&
+            <Link to="/manageorders">
+              <button className="btn btn btn-outline-warning me-3">Manage All Orders</button>
+            </Link>
+          }
+          {
+            user.email&&
+            <Link to="/newservice">
+              <button className="btn btn btn-outline-warning">Add a new service</button>
+            </Link>
+          }
 
           {
             user.email?
@@ -100,7 +118,8 @@ const Navbar = () => {
           
           >
            Logout
-          </button>:
+          </button>
+          :
          <NavLink to='/login'>
             <button
             className="btn btn btn-outline-light position-absolute top-50 end-0 translate-middle-y mx-5"
