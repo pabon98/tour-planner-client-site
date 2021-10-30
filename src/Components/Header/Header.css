@@ -1,0 +1,8 @@
+.header{
+    background-image: url('../../images/header-bg-2.jpg');
+}
+.header-content{
+   position: relative;
+   bottom: 20px;
+}
+

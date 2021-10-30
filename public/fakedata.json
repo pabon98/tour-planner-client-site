@@ -1,0 +1,214 @@
+[
+    {
+      "id": 1,
+      "key": "MNTL",
+      "name": "Alatau Mountain",
+      "visit": "https://www.pagecloud.com/blog/web-design-guide",
+      "description": "A vast, landlocked area of seemingly endless steppes and mountainous highlands, Kazakhstan is both one of the world’s largest and most culturally intricate nations",
+      "duration": "11 days",
+      "image": "https://www.remotelands.com/storage/media/396/conversions/b140811017-banner-size.jpg",
+      "location": "Kazakhstan",
+  
+      "seat": "52",
+  
+      "price": "8500"
+    },
+  
+    {
+      "id": 2,
+      "key": "ISNT",
+      "name": "Santorini",
+      "visit": "https://en.wikipedia.org/wiki/Medical_laboratory",
+      "description": "It may be a common tourist destination, but nothing beats holidaying on the beautiful island of Santorini in Greece. Plan a trip there and stay in the famous village, Oia for an unforgettable experience.",
+      "time": "24 hour",
+      "image": "https://i.ytimg.com/vi/cKedc8trR2Y/maxresdefault.jpg",
+      "location": "Greece",
+  
+      "seat": "50",
+  
+      "price": "12000"
+    },
+  
+    {
+      "id": 3,
+      "key": "AMLC",
+      "name": "Amalfi Coast",
+      "visit": "https://99designs.com/blog/tips/types-of-graphic-design/",
+      "description": "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
+  
+      "time": "24 hour",
+      "image": "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221133013/iStock-479218920-1024x683.jpg",
+      "location": "Italy",
+  
+      "seat": "48",
+  
+      "price": "14000"
+    },
+  
+    {
+      "id": 4,
+      "key": "HAMN",
+      "name": "Chamonix",
+      "visit": "https://www.thecompleteuniversityguide.co.uk/subject-guide/art-and-design",
+      "description": "Chamonix, which is formally known as Chamonix Mont-Blanc, is a high-mountain town and resort area in the French Alps. The stunning location, which is near the junction of France",
+      "time": "24 hour",
+  
+      "image": "https://media.skigebiete-test.de/images/ecu/entity/e_skiresort/ski-resort_chamonix-brevent-flegere_n3878-44889-0_l.jpg",
+      "location": "France",
+  
+      "seat": "40",
+  
+      "price": "15000"
+    },
+    {
+      "id": 5,
+      "key": "ANTIA",
+      "name": "Antarctica",
+      "visit": "https://en.wikipedia.org/wiki/Video_editing",
+      "description": "There’s a reason why Antarctica is on so many peoples’ bucket lists. The continent may be freezing cold, but it’s also breathtakingly beautiful and a stunning sight to behold. From the expanses of ice and blue water to the area’s many penguins, this uninhabited zone is full of fantastic things to see.",
+      "time": "24 hour",
+      "image": "https://cdn.britannica.com/08/135708-050-2346C1CF/Paradise-Bay-Antarctica.jpg",
+
+      "location":"Antarctica",
+      "seat": "45",
+  
+      "price": "20000"
+    },
+  
+    {
+      "id": 6,
+      "key": "ABORM",
+      "name": "Arashiyama Bamboo Forest",
+      "teacher": "Alex hamerd",
+      "visit": "https://backlinko.com/hub/content/writing",
+      "description": "The incredible Arashiyama Bamboo Forest in Japan is beloved by its many visitors. The serene space boasts countless towering green stalks that are sure to fill you with awe as you walk through and listen to them move with the breeze",
+      "time": "24 hour",
+      "image": "https://previews.123rf.com/images/vichie81/vichie811602/vichie81160200127/54115086-arashiyama-bamboo-forest-in-kyoto-japan.jpg",
+     "location": "Japan",
+     "seat": "38",
+  
+      "price": "11000"
+    },
+    {
+      "id": 7,
+      "key": "BGN",
+      "name": "Bagan",
+      "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+      "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.",
+      "time": "24 hour",
+      "image": "https://frontera.net/wp-content/uploads/2017/01/myanmar-copy-1-1-1-3.jpg",
+      "location": "Myanmar",
+      "seat": "32",
+  
+      "price": "6000"
+    },
+    {
+      "id": 8,
+      "key": "VEN",
+      "name": "Venice",
+      "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+  
+      "description": "Of all the magnificent cities in the world, Venice is one of the most beautiful. The Italian destination, which is filled with amazing canals and beautiful architecture, is truly enchanting and unlike anywhere else on earth.",
+      "time": "24 hour",
+      "image": "https://www.vikingcruises.com/oceans/images/CC_Venice_Grand_Canal_Dusk_Alamy_RM_500x250_tcm13-105194.jpg",
+      "location":"Italy",
+      "seat": "30",
+  
+      "price": "9000"
+    },
+    {
+      "id": 9,
+      "key": "APDT",
+      "name": "Benagil Sea Cave, Algarve",
+      "teacher": "Alex hamerd",
+      "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+  
+      "description": "Portugal’s southern coast is lined with incredible beaches and caves. To see the most beautiful, head to Algarve and check out the famous Benagil Sea Cave.",
+      "time": "24 hour",
+      "image": "https://anotherimg-dazedgroup.netdna-ssl.com/900/azure/another-prod/350/7/357608.jpg",
+      "location":"Portugal",
+      "seat": "25",
+  
+      "price": "14000"
+    },
+    {
+        "id": 10,
+        "key": "LGOB",
+        "name": "Blue Lagoon Island",
+        "teacher": "Alex hamerd",
+        "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+    
+        "description": "Want a holiday where you can relax in paradise and bask in natural beauty? Blue Lagoon Island is the place to go. The private and incredibly scenic island boasts one of the best beaches in the Bahamas. From the breathtakingly clear turquoise waters to the pristine white sands, Blue Lagoon Island is a little slice of heaven here on Earth.",
+        "time": "24 hour",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Blue_Lagoon.JPG",
+        "location":"Bahamas",
+        "seat": "20",
+    
+        "price": "11500"
+      },
+      {
+        "id": 11,
+        "key": "APDT",
+        "name": "Kauai",
+        "teacher": "Alex hamerd",
+        "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+    
+        "description": "Kauai in Hawaii is famous for its unbelievably beautiful coastlines, of which 17 miles is included in the amazing Na Pali Coast State Park. The island is also the rainiest place on earth, making it a bona fide tropical paradise that’s perfect for hiking, biking, swimming, and diving.",
+        "time": "24 hour",
+        "image": "https://cdn1.matadornetwork.com/blogs/1/2018/08/Kauai-lead-1200x781.jpg",
+       "location": "Hawaii, USA",
+       "seat": "40",
+    
+        "price": "16000"
+      },
+      {
+        "id": 11,
+        "key": "MCHU",
+        "name": "Machu Pichu",
+        "teacher": "Alex hamerd",
+        "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+    
+        "description": "Machu Picchu is a destination that tops many bucket lists and with good reason. As well as an incredible history, the Incan citadel, which can be found in Peru, also boasts gorgeous panoramic views.",
+        "time": "24 hour",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
+        "location":"Peru",
+        "seat": "17000",
+    
+        "price": "$40"
+      },
+
+  
+      {
+        "id": 13,
+        "key": "NIGF",
+        "name": "Niagara Falls",
+        "teacher": "Alex hamerd",
+        "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+    
+        "description": "Canada’s Niagara Falls is famous for its beauty. So, if the location is not yet on your bucket list, add it immediately. The towering falls, which is a collection of three waterfalls, is amazing to view from both above and below. So, be prepared to be moved by its incredible appearance.",
+        "time": "24 hour",
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/72/1f/18.jpg",
+       "location": "Canada",
+       "seat": "18000",
+    
+        "price": "$88"
+      },
+
+      {
+        "id": 14,
+        "key": "CLFM",
+        "name": "Cliffs of Moher",
+        "visit": "https://www.agitraining.com/design-news/photoshop-training-news/what-photoshop",
+    
+        "description": "You may recognise Ireland’s Cliffs of Moher from the films, such as Harry Potter and the Half-Blood Prince and The Princess Bride. But, while these famous cliffs, which are located in County Clare, appear spectacular on screen, they’re even better in real life.",
+        "time": "24 hour",
+        "image": "https://www.planetware.com/wpimages/2020/04/ireland-dublin-to-cliffs-of-moher-best-ways-to-get-there-by-tour.jpg",
+       "location": "Ireland",
+       "seat": "22",
+    
+        "price": "15500"
+      }
+  
+    
+  ]
+  
