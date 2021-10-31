@@ -10,7 +10,7 @@ import slider4 from "../../images/slider4.jpg";
 const Home = () => {
   const [services, setServices] = useState([])
   useEffect(()=>{
-    fetch("http://localhost:5000/services")
+    fetch("https://fast-brushlands-79885.herokuapp.com/services")
     .then(res=>res.json())
     .then(data=> setServices(data))
   },[])

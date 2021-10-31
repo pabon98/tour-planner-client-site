@@ -16,7 +16,7 @@ const PlaceOrder = () => {
         data.order = services._id;
         data.status = 'pending';
 
-        const url = `http://localhost:5000/placeOrder`;
+        const url = `https://fast-brushlands-79885.herokuapp.com/placeOrder`;
        
         fetch(url, {
             method: 'POST',
@@ -35,7 +35,7 @@ const PlaceOrder = () => {
     };
 
     useEffect(() => {
-        const url = `http://localhost:5000/services/${serviceId}`;
+        const url = `https://fast-brushlands-79885.herokuapp.com/services/${serviceId}`;
         
         fetch(url)
             .then(res => res.json())
@@ -52,7 +52,7 @@ const PlaceOrder = () => {
                             <Card.Body>
                                 <Card.Title>{services?.name}</Card.Title>
                                 <Card.Text><small className='text-muted'>{services?.description}</small></Card.Text>
-                                <Card.Text><small className='text-muted'>Price: ${services.price}</small></Card.Text>
+                                <Card.Text><small className='text-muted'>Price:{services.price}</small></Card.Text>
                             </Card.Body>
                         </Card> 
                 </Col>
