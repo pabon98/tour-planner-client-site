@@ -15,7 +15,6 @@ import Tour from './Components/Tour/Tour';
 import Destination from './Components/Destination/Destination';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
-import ServiceDetail from './Components/ServiceDetail/ServiceDetail'
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute'
 import ManageOrders from './Components/ManageOrders/ManageOrders';
 import MyOrders from './Components/MyOrders/MyOrders';
@@ -38,9 +37,7 @@ function App() {
          <Route path="/home">
            <Home></Home>
          </Route>
-         <PrivateRoute path="/details/:detailsid">
-           <ServiceDetail></ServiceDetail>
-         </PrivateRoute>
+         
          <PrivateRoute path='/tour'>
            <Tour></Tour>
          </PrivateRoute>
