@@ -21,7 +21,7 @@ const NewService = () => {
         <div className="add-tour">
         <h2>Please Add a Service</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
-            <input {...register("title", { required: true, maxLength: 20 })} placeholder="Name" />
+            <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
             <textarea {...register("description")} placeholder="Description" />
             <input type="number" {...register("price")} placeholder="price" />
             <input {...register("image")} placeholder="image url" />

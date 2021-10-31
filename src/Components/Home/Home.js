@@ -149,14 +149,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-  /* <div className="row d-flex justify-content-center align-items-center">
-               <div className="col-md-6">
-                 <img className="w-100" src={img} alt="" />
-               </div>
-               <div className="col-md-6">
-                <h1>Plan your Trip With Us</h1>
-                <p className="fs-4">We are the most reliable travel agency. Here You can <br /> travel worldwide in a minimum cost with higher facility. <br /> So why thinking? Booking now hurry</p>
-               </div>
-            </div> */
