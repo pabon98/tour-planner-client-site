@@ -20,6 +20,7 @@ import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute'
 import ManageOrders from './Components/ManageOrders/ManageOrders';
 import MyOrders from './Components/MyOrders/MyOrders';
 import NewService from './Components/NewService/NewService';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 
 
 
@@ -55,15 +56,18 @@ function App() {
          <PrivateRoute path="/contact">
           <Contact></Contact>
          </PrivateRoute>
-         <PrivateRoute path="/manageorders">
-           <ManageOrders></ManageOrders>
-         </PrivateRoute>
-         <PrivateRoute path="/myorders">
-           <MyOrders></MyOrders>
-         </PrivateRoute>
          <PrivateRoute path="/newservice">
            <NewService></NewService>
          </PrivateRoute>
+         <PrivateRoute path="/placeOrder/:serviceId">
+           <PlaceOrder></PlaceOrder>
+         </PrivateRoute>
+         <PrivateRoute exact path ="/myOrders">
+             <MyOrders></MyOrders>
+            </PrivateRoute>
+            <PrivateRoute path="/managerOrders">
+              <ManageOrders></ManageOrders>
+            </PrivateRoute>
          <Route path="*">
            <NotFound></NotFound>
          </Route>

@@ -94,16 +94,17 @@ const Home = () => {
         {/* Service Section */}
         <h1>Our Services</h1>
         {
-          services.slice(0,6).map(service=>(
+          services.map(service=>(
             <div className="col-md-4 my-2">
               <div class="card" style={{ width: "18rem" }}>
             <img height="200px" src={service.image} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">{service.name}</h5>
               <p class="card-text">
-               {service.description.slice(0,150)}
+               {service.description.slice(0,100)}
               </p>
-            <Link to={`details/${service.id}`}>
+              <p>Price:{service.price}</p>
+            <Link to={`/placeOrder/${service._id}`}>
             <button className="btn btn-warning">Book Now</button>
             </Link>
             </div>

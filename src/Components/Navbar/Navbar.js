@@ -90,13 +90,13 @@ const Navbar = () => {
         <form className="d-flex flex-fill mx-2">
           {
             user.email&&
-            <Link to="/myorders">
+            <Link to="/myOrders">
               <button className="btn btn btn-outline-warning me-3">My Orders</button>
             </Link>
           }
           {
             user.email&&
-            <Link to="/manageorders">
+            <Link to="/managerOrders">
               <button className="btn btn btn-outline-warning me-3">Manage All Orders</button>
             </Link>
           }
