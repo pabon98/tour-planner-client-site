@@ -21,8 +21,6 @@ import MyOrders from './Components/MyOrders/MyOrders';
 import NewService from './Components/NewService/NewService';
 import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 
-
-
 function App() {
   return (
     <div className="App">
@@ -37,7 +35,6 @@ function App() {
          <Route path="/home">
            <Home></Home>
          </Route>
-         
          <PrivateRoute path='/tour'>
            <Tour></Tour>
          </PrivateRoute>

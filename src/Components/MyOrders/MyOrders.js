@@ -45,7 +45,7 @@ const MyOrders = () => {
         setFound(found);
         setLoading(false);
     }, [services, myOrders])
-
+    //Canceling Order
     const handleCancelOrder = (id) => {
         // console.log(id);
         const proceed = window.confirm('Are you sure, you want to cancel the order?')
