@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Holiday Planner Travel Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with (https://tour-planner-website.web.app).
 
 ## Available Scripts
 
