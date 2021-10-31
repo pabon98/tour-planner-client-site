@@ -10,7 +10,7 @@ This project was bootstrapped with (https://tour-planner-website.web.app).
     • you can Book Now in our travel site.
     • you can see our details part after clicking on book now.
     • you placeorder in our site.
-    • After order you can cancel order & aalso you can approve order & you   can add a new service.
+    • After order you can cancel order & also you can approve & delete order & you   can add a new service.
     • you can also see our tour page & some awesome destination.
     • you can also contact us .
 
