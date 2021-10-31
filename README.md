@@ -1,4 +1,4 @@
-# Holiday Planner Travel Site
+# Holiday Planner Travel Agency Site
 
 This project was bootstrapped with (https://tour-planner-website.web.app).
 
