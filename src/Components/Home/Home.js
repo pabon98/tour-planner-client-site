@@ -8,7 +8,7 @@ import slider4 from "../../images/slider4.jpg";
 const Home = () => {
   const [services, setServices] = useState([])
   useEffect(()=>{
-    fetch("https://fast-brushlands-79885.herokuapp.com/services")
+    fetch("https://tour-planner-server-site.vercel.app/services")
     .then(res=>res.json())
     .then(data=> setServices(data))
   },[])

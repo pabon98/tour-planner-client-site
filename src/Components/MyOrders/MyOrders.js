@@ -11,7 +11,7 @@ const MyOrders = () => {
     const { user } = useAuth();
 
     useEffect(() => {
-        const url = `https://fast-brushlands-79885.herokuapp.com/myOrders/${user?.email}`;
+        const url = `https://tour-planner-server-site.vercel.app/myOrders/${user?.email}`;
        
         fetch(url)
             .then(res => res.json())
@@ -19,7 +19,7 @@ const MyOrders = () => {
     }, [user.email])
 
     useEffect(() => {
-        const url = `https://fast-brushlands-79885.herokuapp.com/services`;
+        const url = `https://tour-planner-server-site.vercel.app/services`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -50,7 +50,7 @@ const MyOrders = () => {
         // console.log(id);
         const proceed = window.confirm('Are you sure, you want to cancel the order?')
         if (proceed) {
-            const url = `https://fast-brushlands-79885.herokuapp.com/${id}`;
+            const url = `https://tour-planner-server-site.vercel.app/${id}`;
             
             fetch(url, {
                 method: 'DELETE'
