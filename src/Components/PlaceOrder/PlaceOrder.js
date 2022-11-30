@@ -16,7 +16,7 @@ const PlaceOrder = () => {
         data.order = services._id;
         data.status = 'pending';
 
-        const url = `https://tour-planner-server-site.vercel.app/placeOrder`;
+        const url = `https://fast-brushlands-79885.herokuapp.com/placeOrder`;
        
         fetch(url, {
             method: 'POST',
@@ -35,7 +35,7 @@ const PlaceOrder = () => {
     };
 
     useEffect(() => {
-        const url = `https://tour-planner-server-site.vercel.app/services/${serviceId}`;
+        const url = `https://fast-brushlands-79885.herokuapp.com/services/${serviceId}`;
         
         fetch(url)
             .then(res => res.json())
