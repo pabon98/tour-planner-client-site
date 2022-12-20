@@ -9,7 +9,7 @@ const NewService = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('https://fast-brushlands-79885.herokuapp.com/services', data)
+        axios.post('https://tourplanner-server.onrender.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

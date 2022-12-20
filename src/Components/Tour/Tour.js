@@ -4,7 +4,7 @@ import './Tour.css'
 const Tour = () => {
   const [tours, setTours] = useState([]);
   useEffect(() => {
-    fetch("https://fast-brushlands-79885.herokuapp.com/services")
+    fetch("https://tourplanner-server.onrender.com/services")
       .then((res) => res.json())
       .then((data) => setTours(data));
   }, []);
